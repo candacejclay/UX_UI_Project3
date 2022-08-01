@@ -1,0 +1,209 @@
+/*NAVBAR CONTENT*/ 
+#navbar-content {
+    margin: 20px 100px 20px 100px;
+}
+
+#secondary-navbar {
+    background-color: #3ac997;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.navbar-logo img {
+    width: 150px;
+    height: 150px;
+}
+
+.nav-link {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    color: black;
+}
+
+.navbar .nav-item {
+    padding: 15px;
+}
+
+.nav-link:hover {
+    color: orange;
+}
+
+.secondary-nav .nav-link {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: .9em;
+}
+
+.secondary-nav {
+    padding-right: 100px;
+    justify-content: flex-end;
+}
+
+
+
+/*HERO CONTENT*/
+#hero-content  {
+    background-image: url("https://lh3.googleusercontent.com/Z2B_nduq_7obg8cOg5usfRZYZZ-2pUn0w3xhcLxPtigeIcD3iWwpCKfyIKAeQYU3waltvmUq3s948x6RyIYj4PbEBJmjZq337R_1qsCwEEFJrFXjzSVVeJBbeX0j5F3biCLcSSbXOjyJ-Lxqj2AHw9cgaRhdO6EVOPEheUsRq9NypN06CBt25WXatrMN7iqAAcW7Qjwo3Uw-HTVKVWVKAyqIRRSFekpkiwtUK-dKhFDiOmqD5-qAZMiZhU1qTKsk-nY5Q9X147eZfnzF2pBd2Vs52QqJfUS-Su-olEBHfzcMSiHcHghJKzW1bqWrXHN69eGgEH0c4oMff8vQ8YelND62FftNGlQ2BkGPiUAt_ZB1VSNnuSz64J8wZL-3tNSAEf3573a3W7Ai0udGbTtHo3XsO_5utrGH0K-E9zPeLK0CdRjYQmF6rxLIkTneCYLz6OHy68Hv-Pw2E2ZoA2an8yDU9a3BQDrbDXYTnicdHb_vyCEKTz3YlsGhz7wOZq6ot8zY1vlXyGibicJjmCQhkkc8CbpqpR_djbuLiaUlOownmPeHi0_Ez03g_eOfbAjxQ-RoGEMEjEycVaFFSWQCOF1_KELFrEA9p9xK5sgEi8KHHq7YGsTeQAqg2NUBnq9_yvHPnT1jG4b0esLAZhSPTChRMii_SnQQGC9u5l6zvIEhsglrnQyk2VrEBaGJtAcIgcPUkFpv7HtIY5_kBQcOOSoxpQCil4OzegA2zV-Lidvtb3YSav0KHClGAfR-3g=w1637-h912-no?authuser=0");
+    background-size: cover;   
+    background-position: center;                              
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#hero-content h1 {
+    color: white;
+    font-size: 4em;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
+}
+
+#hero-content p {
+    color: white;
+    font-size: 1.3em;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*ABOUT DUVAL SECTION*/
+#about-content {
+    background-color: beige;
+    padding: 70px;
+}
+
+#about-content p {
+    color: black;
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+/*ABOUT DUVAL SECTION*/
+#cae-content {
+    padding: 70px;
+}
+
+#cae-content h3 {
+    color: #3ac997;
+    font-size: 2.3em;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
+}
+
+#cae-content p {
+    color: black;
+    font-size: 1.2em;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*GET INVOLVED SECTION*/
+#involved-content {
+    padding: 70px;
+    background-image: url("https://lh3.googleusercontent.com/wWjuhqe6aRO8R1UrC7mBVzt6zi-DUroyk66QN_3iszl0uUf6SdBrkeZ3uYFLeC6RZCyT8zj6m1V7k_xFzIdMF2dHg8LG6Tyt6uHBldLFd9bY6rHFkKxYXXpEnyNMPczJnuMVAW4vnMm9Wnj9aOnANqYDDCbP6-5Nf-LHv0JovFNnM-whXBD8nkSQGevqVE5TcYw7vWQBs37qaxvYDOKX49qyMamlK0TojAyJktNTuqvTImvOFdwuG8dpHjt4TdzwVO5rjd0L9OfVdsyOeGpQ5Vl90UIOVq2uK4rxbPq7eNwfPWDz3eL8_PtjwSYT5mfqmEh7dcWy6WIbU4Z9yquFiw43Q_N0asmD0AbGnmFk9Zea-3gRLx9Ykxj51_T1LXKn4J9yjrlt5YeKuCik5kEnODuNY2IgoP_EZdf0GhcULeX6nwkrGpXPkMIO0aAFwTbk1q9wwmQdoz6NNE-o5-0XEE8CsUJRFfkybGvCWFugbdHD2J8kPdEJTTllnjUK83T9nQQH1PmaTKaUPVHMNVZ4AW_tXQN_452mcKYoicUZubTPEhvNRU7WM-NOqd1xJfdTGEHU2nqXtjqz1Oq1T9gdP3FhVZsD-s5WzqT9tRbJbf--x60gtkF94U6N-l0p4e6D2GHbYkE4zAMEK6TV9MGMWfslzgLmty9ewbK6j0fd8C6xf-upEQx7WCAQLnoobLap_vcwDtZdBM-XGnugYlXJVSpvRdi0QXawUfdOiDV_tXb4s5hw3zm6ru1R_sMzBg=w1451-h913-no?authuser=0");
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#involved-content h3 {
+    color: white;
+    font-size: 2.3em;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
+}
+
+#involved-content p {
+    color: black;
+    font-size: 1.2em;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.box {
+    height: 100px;
+    border: 3px solid black;
+    align-items: center;
+    justify-content: center;
+}
+
+/*FOOTER CONTENT*/
+#footer-content {
+    padding: 50px;
+    background-color: #3ac997;
+}
+
+#footer-content img {
+    width: 200px;
+    height: 200px;
+}
+
+#footer-content h3 {
+    color: white;
+    font-size: 1.8em;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
+}
+
+#footer-content .nav-link {
+    font-size: 1em;
+    font-family: 'Roboto',sans-serif;
+}
+
+#footer-content .nav-link:hover {
+    color: white;
+}
+
+#footer-content .button {
+    margin-top: 20px;
+}
+
+
+/* BUTTON CONTENT */
+.button {
+  align-items: center;
+  background-color: transparent;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  color: #000;
+  cursor: pointer;
+  display: inline-flex;
+  fill: #000;
+  font-family: 'Roboto',sans-serif;
+  font-size: 1.2em;
+  height: 48px;
+  justify-content: center;
+  min-width: 140px;
+  outline: 0;
+  padding: 0 17px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.button:focus {
+  color: #171e29;
+}
+
+.button:hover {
+  border-color: white;
+  color: white;
+}
+
+.button:active {
+  border-color: white;
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .button {
+    min-width: 170px;
+  }
+}
+
+
+
+
