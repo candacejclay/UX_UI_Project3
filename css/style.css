@@ -27,7 +27,7 @@
 }
 
 .nav-link:hover {
-    color: orange;
+    color: #f86734;
 }
 
 .secondary-nav .nav-link {
@@ -41,11 +41,16 @@
     justify-content: flex-end;
 }
 
-
+.dropdown:hover>.dropdown-menu {
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    background-color: #f86734;
+  }
 
 /*HERO CONTENT*/
 #hero-content  {
-    background-image: url("https://lh3.googleusercontent.com/Z2B_nduq_7obg8cOg5usfRZYZZ-2pUn0w3xhcLxPtigeIcD3iWwpCKfyIKAeQYU3waltvmUq3s948x6RyIYj4PbEBJmjZq337R_1qsCwEEFJrFXjzSVVeJBbeX0j5F3biCLcSSbXOjyJ-Lxqj2AHw9cgaRhdO6EVOPEheUsRq9NypN06CBt25WXatrMN7iqAAcW7Qjwo3Uw-HTVKVWVKAyqIRRSFekpkiwtUK-dKhFDiOmqD5-qAZMiZhU1qTKsk-nY5Q9X147eZfnzF2pBd2Vs52QqJfUS-Su-olEBHfzcMSiHcHghJKzW1bqWrXHN69eGgEH0c4oMff8vQ8YelND62FftNGlQ2BkGPiUAt_ZB1VSNnuSz64J8wZL-3tNSAEf3573a3W7Ai0udGbTtHo3XsO_5utrGH0K-E9zPeLK0CdRjYQmF6rxLIkTneCYLz6OHy68Hv-Pw2E2ZoA2an8yDU9a3BQDrbDXYTnicdHb_vyCEKTz3YlsGhz7wOZq6ot8zY1vlXyGibicJjmCQhkkc8CbpqpR_djbuLiaUlOownmPeHi0_Ez03g_eOfbAjxQ-RoGEMEjEycVaFFSWQCOF1_KELFrEA9p9xK5sgEi8KHHq7YGsTeQAqg2NUBnq9_yvHPnT1jG4b0esLAZhSPTChRMii_SnQQGC9u5l6zvIEhsglrnQyk2VrEBaGJtAcIgcPUkFpv7HtIY5_kBQcOOSoxpQCil4OzegA2zV-Lidvtb3YSav0KHClGAfR-3g=w1637-h912-no?authuser=0");
+    background: url("https://lh3.googleusercontent.com/xowESK-ZH-bYLdoQWntKpG6CJE5manZ7yXAekSD389FgNYhGC24BwSRqoqPMCcgGpqkO4zK3DXYtPZJHK-b2CEmqpuvqNftq0Iai-cE9mdJQr3kNqQgZXtCrtqRm0BHoUDUYH36HSx_6Zfy4FkFgANlMx5qC2YrTNhISquOZDCGkJsEE-QvjCPefrDE8n37icSIcqkkL-qy-4bked0ejcGjsc3SRjjvv9oIXiyX25dRGDkDGAW8upUz1gmYVpKuxzFYbFzgCf3HctRUf5iwjTKripKRux2r_4QY22qbSNzFvAEx-YOafOIjF9tHOpCm2oaIrQEcTiam6MgYmy47f6uE8kDaDk-w_NVrteDhX0IkwPfpDVypV_8PjXfh7k7avFAby6UZ7WYnZ5s1t53U8RNrPw8AiGNgQxXGB3c3CTt45UpQhusrr7dsteTeKzM4f_Ayj10bfescbdy1czw9a71TTMtJFcMUMblqfsTJj7WEnqyFXCEcMpdvOkITFPOwVSsO6mwjz0BmnSv2ooigElHmIh5xe3WF5I7sOrVq8sqkuYtxrq7C55feG-vuppfRfwPa5zVBcQ9n2d1FySzmVb19rOy1CPRz1jCenJ8ZOZAfnL2Mgyvz7IIC6GMA-j-Df3Q9lSWhdzwa9uKWWG944LsF7cITIzW9EHghfFgLzKWJDJJ95P3RcRdnZfRgfRBLKO6SQRRIsRZ2hi0KS6OmlNGVmnateJfxTwcSlxnC0M78q-ueDQJg4b4B5mZdqpQ=w1739-h970-no?authuser=0");
     background-size: cover;   
     background-position: center;                              
     height: 70vh;
@@ -81,10 +86,6 @@
 }
 
 /*ABOUT DUVAL SECTION*/
-#cae-content {
-    padding: 70px;
-}
-
 #cae-content h3 {
     color: #3ac997;
     font-size: 2.3em;
@@ -98,16 +99,20 @@
     font-family: 'Roboto', sans-serif;
 }
 
+#cae-content div {
+    padding: 20px;
+}
+
 /*GET INVOLVED SECTION*/
 #involved-content {
     padding: 70px;
-    background-image: url("https://lh3.googleusercontent.com/wWjuhqe6aRO8R1UrC7mBVzt6zi-DUroyk66QN_3iszl0uUf6SdBrkeZ3uYFLeC6RZCyT8zj6m1V7k_xFzIdMF2dHg8LG6Tyt6uHBldLFd9bY6rHFkKxYXXpEnyNMPczJnuMVAW4vnMm9Wnj9aOnANqYDDCbP6-5Nf-LHv0JovFNnM-whXBD8nkSQGevqVE5TcYw7vWQBs37qaxvYDOKX49qyMamlK0TojAyJktNTuqvTImvOFdwuG8dpHjt4TdzwVO5rjd0L9OfVdsyOeGpQ5Vl90UIOVq2uK4rxbPq7eNwfPWDz3eL8_PtjwSYT5mfqmEh7dcWy6WIbU4Z9yquFiw43Q_N0asmD0AbGnmFk9Zea-3gRLx9Ykxj51_T1LXKn4J9yjrlt5YeKuCik5kEnODuNY2IgoP_EZdf0GhcULeX6nwkrGpXPkMIO0aAFwTbk1q9wwmQdoz6NNE-o5-0XEE8CsUJRFfkybGvCWFugbdHD2J8kPdEJTTllnjUK83T9nQQH1PmaTKaUPVHMNVZ4AW_tXQN_452mcKYoicUZubTPEhvNRU7WM-NOqd1xJfdTGEHU2nqXtjqz1Oq1T9gdP3FhVZsD-s5WzqT9tRbJbf--x60gtkF94U6N-l0p4e6D2GHbYkE4zAMEK6TV9MGMWfslzgLmty9ewbK6j0fd8C6xf-upEQx7WCAQLnoobLap_vcwDtZdBM-XGnugYlXJVSpvRdi0QXawUfdOiDV_tXb4s5hw3zm6ru1R_sMzBg=w1451-h913-no?authuser=0");
+    background-image: url("https://images.unsplash.com/photo-1636315197022-a97ac4338e64?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80");
     background-size: cover;
     background-position: center;
     height: 50vh;
-    display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
 #involved-content h3 {
@@ -115,20 +120,82 @@
     font-size: 2.3em;
     font-family: 'Fira Sans', sans-serif;
     font-weight: 600;
+    text-align: center;
+    padding-bottom: 20px;
 }
 
 #involved-content p {
-    color: black;
-    font-size: 1.2em;
+    color: white;
+    font-size: 1.8em;
     font-family: 'Roboto', sans-serif;
     text-align: center;
+    font-weight: 600;
 }
 
 .box {
-    height: 100px;
-    border: 3px solid black;
-    align-items: center;
+    background-color: #3ac997;
+    width: 200px;
+    height: 200px;
+    display: flex;
     justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px, rgba(0, 0, 0, 0.05) 0px 0.5px 1px;
+  transition: all .3s ease-in-out;
+}
+
+.box:hover {
+    box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px, rgba(0, 0, 0, 0.18) 0px 4px 11px;
+  }
+
+/*NEWSLETTER SECTION*/
+#newsletter-content {
+    background-color: beige;
+    padding: 70px;
+}
+
+#newsletter-content h3 {
+    color: #3ac997;
+    font-size: 2.3em;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
+}
+
+#newsletter-content p {
+    color: black;
+    font-size: 1.2em;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*SIGHTINGS SECTION*/
+#sightings-content {
+    padding: 70px;
+}
+
+#sightings-content h3 {
+    color: #3ac997;
+    font-size: 2.3em;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+#sightings-content h4 {
+    color: black;
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+#sightings-content p {
+    color: black;
+    font-size: 1.2em;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 50px;
 }
 
 /*FOOTER CONTENT*/
@@ -203,6 +270,59 @@
     min-width: 170px;
   }
 }
+
+.button2 {
+    align-items: center;
+    background-color: transparent;
+    border: 2px solid #000;
+    box-sizing: border-box;
+    color: #000;
+    cursor: pointer;
+    display: inline-flex;
+    fill: #000;
+    font-family: 'Roboto',sans-serif;
+    font-size: 1.2em;
+    height: 48px;
+    justify-content: center;
+    min-width: 140px;
+    outline: 0;
+    padding: 0 17px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .button2:focus {
+    color: #171e29;
+  }
+  
+  .button2:hover {
+    border-color: white;
+    color: white;
+  }
+  
+  .button2:active {
+    border-color: white;
+    color: white;
+  }
+  
+  @media (min-width: 768px) {
+    .button2 {
+      min-width: 170px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    #involved-content {
+        height: 75vh;
+    }
+  }
+
+@media (max-width: 768px) {
+    .box {
+        width: 150px;
+        height: 150px;
+    }
+  }
 
 
 
