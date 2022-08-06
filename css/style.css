@@ -259,6 +259,7 @@
 .button:hover {
   border-color: #3ac997;
   color: #3ac997;
+  text-decoration: none;
 }
 
 .button:active {
@@ -306,9 +307,9 @@
     color: #3ac997;
   }
   
-  @media (min-width: 768px) {
+  @media (max-width: 768px) {
     .button2 {
-      min-width: 170px;
+      min-width: 200px;
     }
   }
 
