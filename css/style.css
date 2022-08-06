@@ -46,6 +46,7 @@
     font-family: 'Roboto', sans-serif;
     font-size: 1.2em;
     background-color: #f86734;
+
   }
 
 /*HERO CONTENT*/
@@ -256,13 +257,13 @@
 }
 
 .button:hover {
-  border-color: white;
-  color: white;
+  border-color: #3ac997;
+  color: #3ac997;
 }
 
 .button:active {
-  border-color: white;
-  color: white;
+  border-color: #3ac997;
+  color: #3ac997;
 }
 
 @media (min-width: 768px) {
@@ -296,13 +297,13 @@
   }
   
   .button2:hover {
-    border-color: white;
-    color: white;
+    border-color: #3ac997;
+    color: #3ac997;
   }
   
   .button2:active {
-    border-color: white;
-    color: white;
+    border-color: #3ac997;
+    color: #3ac997;
   }
   
   @media (min-width: 768px) {
