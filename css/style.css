@@ -211,7 +211,7 @@
 }
 
 #footer-content h3 {
-    color: white;
+    color: #ffffff;
     font-size: 1.8em;
     font-family: 'Fira Sans', sans-serif;
     font-weight: 600;
@@ -230,6 +230,37 @@
     margin-top: 20px;
 }
 
+/*FOOTER CONTENT CONSERVATION*/
+
+#footer-content-conservation {
+    padding: 50px;
+    background-color: #3E45A2;
+}
+
+#footer-content-conservation img {
+    width: 200px;
+    height: 200px;
+}
+
+#footer-content-conservation h3 {
+    color: #ffffff;
+    font-size: 1.8em;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
+}
+
+#footer-content-conservation .nav-link {
+    font-size: 1em;
+    font-family: 'Roboto',sans-serif;
+}
+
+#footer-content-conservation .nav-link:hover {
+    color: white;
+}
+
+#footer-content-conservation .button {
+    margin-top: 20px;
+}
 
 /* BUTTON CONTENT */
 .button {
