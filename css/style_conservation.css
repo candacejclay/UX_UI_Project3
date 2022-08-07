@@ -150,7 +150,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
-/*ABOUT DUVAL SECTION*/
+/*ABOUT DUVAL SECTION */
 #about-content {
     background-color: beige;
     padding: 70px;
@@ -163,7 +163,6 @@
     text-align: center;
 }
 
-/*ABOUT DUVAL SECTION*/
 #cae-content h3 {
     color: #3ac997;
     font-size: 2.3em;
@@ -248,7 +247,7 @@
 }
 
 #rcc-content p {
-    color: #white;
+    color: #ffffff;
     font-size: 1.8em;
     font-family: 'Roboto', sans-serif;
     text-align: center;
@@ -271,50 +270,6 @@
     box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px, rgba(0, 0, 0, 0.18) 0px 4px 11px;
   }
 
-/*ADOPT A BIRD SECTION CONSERVATION*/
-#adopt-bird-content {
-    padding: 70px;
-    background: url("https://candacejclay.github.io/UX_UI_Project3/images/adopt_bird.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 50vh;
-    justify-content: right;
-    align-items: center;
-    display: flex;
-}
-
-#adopt-bird-content h3 {
-    color: #333333;
-    font-size: 2.3em;
-    font-family: 'Fira Sans', sans-serif;
-    font-weight: 600;
-    text-align: center;
-    padding-bottom: 20px;
-}
-
-#adopt-bird-content p {
-    color: white;
-    font-size: 1.8em;
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    font-weight: 600;
-}
-
-.box {
-    background-color: #3E45A2;
-    width: 200px;
-    height: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px;
-    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px, rgba(0, 0, 0, 0.05) 0px 0.5px 1px;
-  transition: all .3s ease-in-out;
-}
-
-.box:hover {
-    box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px, rgba(0, 0, 0, 0.18) 0px 4px 11px;
-  }
 
 /*EAGLE WATCH SECTION CONSERVATION*/
 #eagle-watch-content-conservation {
@@ -348,7 +303,7 @@
 }
 
 #newsletter-content h3 {
-    color: #3ac997;
+    color: #3E45A2;
     font-size: 2.3em;
     font-family: 'Fira Sans', sans-serif;
     font-weight: 600;
@@ -359,6 +314,76 @@
     font-size: 1.2em;
     font-family: 'Roboto', sans-serif;
 }
+
+/* CARDS CONSERVATION */
+.cards-conservation {
+    padding: 0px;
+  }
+  .sectionHeading {
+    text-align: center;
+    color: #3E45A2;
+    font-size: 2.3em;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+  }
+  .showsNear  {
+    padding: 0px 30px 30px 30px;
+  }
+  .cardContainer {
+    text-align: center;
+  }
+
+  .card-title {
+    color: #3E45A2;
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  .card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+  }
+
+  .card-text p {
+    color: black;
+    font-size: 1.2em;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+  #sightings-content h3 {
+    color: #3E45A2;
+    font-size: 2.3em;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
+    text-align: left;
+    padding-bottom: 20px;
+    }
+
+    #sightings-content h4 {
+        color: black;
+        font-size: 1.5em;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 600;
+        text-align: left;
+        padding-bottom: 20px;
+    }
+
+    #sightings-content p {
+        color: black;
+        font-size: 1.2em;
+        font-family: 'Roboto', sans-serif;
+        padding-top: 10px;
+        padding-bottom: 50px;
+    }
 
 /*SIGHTINGS SECTION*/
 #sightings-content {
@@ -390,6 +415,112 @@
     padding-top: 10px;
     padding-bottom: 50px;
 }
+
+/*SIGHTINGS SECTION CONSERVATION*/
+#sightings-content-conservation {
+  padding: 0px;
+}
+
+.cardContainer-conservation {
+  padding: 0px;
+  text-align: center;
+}
+
+.card-conservation {
+  padding: 0px;
+}
+
+.card-img-top-conservation {
+  width: 100%;
+  height: 10vw;
+  object-fit: cover;
+}
+
+.card-title-conservation {
+  padding: 10px;
+}
+
+#sightings-content-conservation h3 {
+  color: #3E45A2;
+  font-size: 2.3em;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+#sightings-content-conservation h4 {
+  color: black;
+  font-size: 1.5em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+#sightings-content-conservation h5 {
+  color: black;
+  font-size: 1.2em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+#sightings-content-conservation p {
+  color: black;
+  font-size: 1.1em;
+  font-family: 'Roboto', sans-serif;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+/*ADOPT A BIRD SECTION CONSERVATION*/
+#adopt-bird-content {
+    padding: 70px;
+    background: url("https://candacejclay.github.io/UX_UI_Project3/images/flamingos.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    justify-content: right;
+    align-items: center;
+    display: flex;
+}
+
+#adopt-bird-content h3 {
+    color: #ffffff;
+    font-size: 2.3em;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#adopt-bird-content p {
+    color: white;
+    font-size: 1.8em;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    align-items: center;
+    font-weight: 600;
+}
+
+.box {
+    background-color: #3E45A2;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px, rgba(0, 0, 0, 0.05) 0px 0.5px 1px;
+  transition: all .3s ease-in-out;
+}
+
+.box:hover {
+    box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px, rgba(0, 0, 0, 0.18) 0px 4px 11px;
+  }
 
 /*FOOTER CONTENT*/
 #footer-content {
