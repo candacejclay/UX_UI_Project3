@@ -345,6 +345,32 @@
   color: #ffffff;
 }
 
+               =======
+#footer-content-conservation .h3:hover {
+  color: #ffffff;
+}
+
+#footer-content-conservation .h3:active {
+  color: #ffffff;
+}
+
+#footer-content-conservation .h3:focus {
+  color: #ffffff;
+}
+
+#footer-content-conservation .nav-link {
+  font-size: 1em;
+  font-family: 'Roboto',sans-serif;
+}
+
+#footer-content-conservation .nav-link:hover {
+    color: #ffffff;
+}
+
+#footer-content-conservation .nav-link:active {
+  color: #ffffff;
+}
+
 #footer-content-conservation .nav-link:focus {
   color: #ffffff;
 }
