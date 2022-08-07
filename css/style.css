@@ -116,6 +116,18 @@
     display: flex;
 }
 
+/*GET INVOLVED SECTION CONSERVATION*/
+#involved-content-conservation {
+    padding: 70px;
+    background: url("https://candacejclay.github.io/UX_UI_Project3/images/eagle_watch.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
 #involved-content h3 {
     color: white;
     font-size: 2.3em;
@@ -211,7 +223,7 @@
 }
 
 #footer-content h3 {
-    color: white;
+    color: #ffffff;
     font-size: 1.8em;
     font-family: 'Fira Sans', sans-serif;
     font-weight: 600;
@@ -229,7 +241,6 @@
 #footer-content .button {
     margin-top: 20px;
 }
-
 
 /* BUTTON CONTENT */
 .button {
