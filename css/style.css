@@ -16,7 +16,7 @@
     height: 150px;
 }
 
-.nav-link {
+.nav-link1, .nav-link2, .nav-link3, .nav-link4, .nav-link5 {
     font-family: 'Roboto', sans-serif;
     font-size: 1.2em;
     color: black;
@@ -26,8 +26,29 @@
     padding: 15px;
 }
 
-.nav-link:hover {
+.nav-link1:hover {
+    color: #3ac997;
+    text-decoration: none;
+}
+
+.nav-link2:hover {
     color: #f86734;
+    text-decoration: none;
+}
+
+.nav-link3:hover {
+    color: #9B36DD;
+    text-decoration: none;
+}
+
+.nav-link4:hover {
+    color: #3E45A2;
+    text-decoration: none;
+}
+
+.nav-link5:hover {
+    color: #E23B96;
+    text-decoration: none;
 }
 
 .secondary-nav .nav-link {
@@ -41,14 +62,33 @@
     justify-content: flex-end;
 }
 
+/*DROPDOWN MENU*/
 .dropdown:hover>.dropdown-menu {
     display: block;
     font-family: 'Roboto', sans-serif;
     font-size: 1.2em;
-    background-color: #f86734;
-
+    background-color: white;
   }
 
+.navbar .dropdown-menu1 a:hover {
+    background: #f86734!important;
+    color: white;
+}
+
+.navbar .dropdown-menu2 a:hover {
+    background: #9B36DD!important;
+    color: white;
+}
+
+.navbar .dropdown-menu3 a:hover {
+    background:#3E45A2!important;
+    color: white;
+}
+
+.navbar .dropdown-menu4 a:hover {
+    background: #E23B96!important;
+    color: white;
+}
 /*HERO CONTENT*/
 #hero-content  {
     background: url("https://candacejclay.github.io/UX_UI_Project3/images/hero-image.png");
@@ -232,10 +272,11 @@
 #footer-content .nav-link {
     font-size: 1em;
     font-family: 'Roboto',sans-serif;
+    color: white;
 }
 
 #footer-content .nav-link:hover {
-    color: white;
+    color: grey;
 }
 
 #footer-content .button {
@@ -287,12 +328,12 @@
 .button2 {
     align-items: center;
     background-color: transparent;
-    border: 2px solid #000;
+    border: 2px solid white;
     box-sizing: border-box;
-    color: #000;
+    color: white;
     cursor: pointer;
     display: inline-flex;
-    fill: #000;
+    fill: white;
     font-family: 'Roboto',sans-serif;
     font-size: 1.2em;
     height: 48px;
@@ -302,6 +343,7 @@
     padding: 0 17px;
     text-align: center;
     text-decoration: none;
+    margin-top: 15px;
   }
   
   .button2:focus {
@@ -309,13 +351,13 @@
   }
   
   .button2:hover {
-    border-color: #3ac997;
-    color: #3ac997;
+    border-color: grey;
+    color: grey;
   }
   
   .button2:active {
-    border-color: #3ac997;
-    color: #3ac997;
+    border-color: grey;
+    color: grey;
   }
   
   @media (max-width: 768px) {
