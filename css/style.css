@@ -89,6 +89,7 @@
     background: #E23B96!important;
     color: white;
 }
+
 /*HERO CONTENT*/
 #hero-content  {
     background: url("https://candacejclay.github.io/UX_UI_Project3/images/hero-image.png");
@@ -126,7 +127,7 @@
     text-align: center;
 }
 
-/*ABOUT DUVAL SECTION*/
+/*CAE SECTION*/
 #cae-content h3 {
     color: #3ac997;
     font-size: 2.3em;
@@ -156,13 +157,25 @@
     display: flex;
 }
 
+/*GET INVOLVED SECTION CONSERVATION*/
+#involved-content {
+    padding: 70px;
+    background: url("https://candacejclay.github.io/UX_UI_Project3/images/flock.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
 #involved-content h3 {
-    color: white;
-    font-size: 2.3em;
+    color: black;
+    font-size: 2.5em;
     font-family: 'Fira Sans', sans-serif;
     font-weight: 600;
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 
 #involved-content p {
@@ -187,6 +200,7 @@
 
 .box:hover {
     box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px, rgba(0, 0, 0, 0.18) 0px 4px 11px;
+    cursor: pointer;
   }
 
 /*NEWSLETTER SECTION*/
