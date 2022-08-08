@@ -147,22 +147,10 @@
 /*GET INVOLVED SECTION*/
 #involved-content {
     padding: 70px;
-    background: url("https://candacejclay.github.io/UX_UI_Project3/images/get-involved.jpg");
+    background: url("https://candacejclay.github.io/UX_UI_Project3/images/flock.jpg");
     background-size: cover;
     background-position: center;
     height: 50vh;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-}
-
-/*GET INVOLVED SECTION CONSERVATION*/
-#involved-content-conservation {
-    padding: 70px;
-    background: url("https://candacejclay.github.io/UX_UI_Project3/images/eagle_watch.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 80vh;
     justify-content: center;
     align-items: center;
     display: flex;
