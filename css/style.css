@@ -313,7 +313,7 @@
 .button:hover {
   border-color: #3ac997;
   color: #3ac997;
-  text-decoration: none;
+  display: inline-block;
 }
 
 .button:active {
@@ -355,6 +355,7 @@
   .button2:hover {
     border-color: grey;
     color: grey;
+    display: inline-block;
   }
   
   .button2:active {
@@ -364,6 +365,61 @@
   
   @media (max-width: 768px) {
     .button2 {
+      min-width: 200px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    #involved-content {
+        height: 75vh;
+    }
+  }
+
+@media (max-width: 768px) {
+    .box {
+        width: 150px;
+        height: 150px;
+    }
+  }
+
+  .button3 {
+    align-items: center;
+    background-color: transparent;
+    border: 2px solid white;
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+    display: inline-flex;
+    fill: white;
+    font-family: 'Roboto',sans-serif;
+    font-size: 1.2em;
+    height: 48px;
+    justify-content: center;
+    min-width: 140px;
+    outline: 0;
+    padding: 0 17px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 15px;
+  }
+  
+  .button3:focus {
+    color: #171e29;
+  }
+  
+  .button3:hover {
+    border-color: #3ac997;
+    color: #3ac997;
+    display: inline-block;
+  }
+  
+  .button3:active {
+    border-color: #3ac997;
+    color: #3ac997;
+  }
+  
+  @media (max-width: 768px) {
+    .button3 {
       min-width: 200px;
     }
   }
