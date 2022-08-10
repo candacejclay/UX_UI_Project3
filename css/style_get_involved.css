@@ -1,0 +1,309 @@
+#secondary-navbar {
+  background-color: #f86734;
+}
+
+/*HERO CONTENT GET INVOLVED*/
+#hero-content-get-involved  {
+    background: url("https://candacejclay.github.io/UX_UI_Project3/images/hero_image_get_involved.jpg");
+    background-size: cover;   
+    background-position: top;                              
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#hero-content-get-involved h1 {
+    color: #000000;
+    font-size: 4em;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
+}
+
+#hero-content-get-involved p {
+    color: #000000;
+    font-size: 1.3em;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*ABOUT DUVAL SECTION */
+#about-content {
+    background-color: beige;
+    padding: 70px;
+}
+
+#about-content p {
+    color: black;
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+/*GET INVOLVED SECTION*/
+#involved-content {
+    padding: 70px;
+    background: url("https://candacejclay.github.io/UX_UI_Project3/images/lake_marsh_lily_pads.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#involved-content h3 {
+    color: white;
+    font-size: 2.3em;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#involved-content p {
+    color: white;
+    font-size: 1.8em;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight: 600;
+}
+
+.box {
+    background-color: #3ac997;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px, rgba(0, 0, 0, 0.05) 0px 0.5px 1px;
+  transition: all .3s ease-in-out;
+}
+
+.box:hover {
+    box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px, rgba(0, 0, 0, 0.18) 0px 4px 11px;
+  }
+
+/*OFFICES & DIRECTORS GET INVOLVED*/
+#rcc-content {
+    padding: 70px;
+    background: url("https://candacejclay.github.io/UX_UI_Project3/images/lake_marsh_lily_pads.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#rcc-content h3 {
+    color: #333333;
+    font-size: 2.3em;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#rcc-content p {
+    color: #ffffff;
+    font-size: 1.8em;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight: 600;
+}
+
+.box {
+    background-color: #F86734;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px, rgba(0, 0, 0, 0.05) 0px 0.5px 1px;
+  transition: all .3s ease-in-out;
+}
+
+.box:hover {
+    box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px, rgba(0, 0, 0, 0.18) 0px 4px 11px;
+  }
+
+
+/*NEWSLETTER SECTION*/
+#newsletter-content {
+    background-color: #ffffff;
+    padding: 0px;                         
+}
+
+#newsletter-content h3 {
+    color: #F86734;
+    font-size: 2em;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
+    padding-top: 100px;
+}
+
+#newsletter-content p {
+    color: black;
+    font-size: 1.2em;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* CARDS CONSERVATION */
+.cards-get-involved {
+    padding: 0px;
+  }
+  .sectionHeading {
+    text-align: center;
+    color: #F86734;
+    font-size: 2.3em;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+  }
+  .showsNear  {
+    padding: 0px 30px 30px 30px;
+  }
+  .cardContainer {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+
+  .card-title {
+    color: #F86734;
+    font-size: 1.3em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  .card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+  }
+
+  .card-text p {
+    color: black;
+    font-size: 1.2em;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+/*SIGHTINGS SECTION CONSERVATION*/
+#sightings-content-get-involved {
+  padding: 0px;
+}
+
+.cardContainer-get-involved {
+  padding: 0px;
+  text-align: center;
+}
+
+.card-get-involved {
+  padding: 0px;
+}
+
+.card-img-top-get-involved {
+  width: 100%;
+  height: 10vw;
+  object-fit: contain;
+}
+
+.card-title-get-involved {
+  padding: 10px;
+}
+
+#sightings-content-get-involved h3 {
+  color: #F86734;
+  font-size: 2.3em;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+#sightings-content-get-involved h4 {
+  color: black;
+  font-size: 1.5em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+#sightings-content-get-involved h5 {
+  color: black;
+  font-size: 1.2em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+#sightings-content-get-involved p {
+  color: black;
+  font-size: 1.1em;
+  font-family: 'Roboto', sans-serif;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+/*FOOTER CONTENT GET INVOLVED*/
+
+#footer-content {
+    padding: 50px;
+    background-color: #F86734;
+}
+
+
+  
+  .button2get_involved {
+      align-items: center;
+      background-color: transparent;
+      border: 2px solid #000;
+      box-sizing: border-box;
+      color: #000;
+      cursor: pointer;
+      display: inline-flex;
+      fill: #000;
+      font-family: 'Roboto',sans-serif;
+      font-size: 1.2em;
+      height: 48px;
+      justify-content: center;
+      min-width: 140px;
+      outline: 0;
+      padding: 0 17px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+    }
+    
+    .button2get_involved:focus {
+      color: #171e29;
+    }
+    
+    .button2get_involved:hover {
+      border-color: #F86734;
+      color: #F86734;
+    }
+    
+    .button2get_involved:active {
+      border-color: #F86734;
+      color: #F86734;
+    }
+    
+    @media (max-width: 768px) {
+      .button2get_involved {
+        min-width: 200px;
+      }
+    }
+
+  
+
